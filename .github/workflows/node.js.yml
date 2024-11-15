@@ -39,7 +39,7 @@ jobs:
     - name: Integration test
       run: yarn test:e2e
 
-    - name: Report JUnit test results
-      uses: EnricoMi/publish-unit-test-result@v1
-      with:
-        test_results: reports/*.xml
+    #- name: Report JUnit test results
+    #  uses: EnricoMi/publish-unit-test-result-action@v1
+    #  with:
+    #    test_results: reports/*.xml
